@@ -1,7 +1,7 @@
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters, ContextTypes
 
-TOKEN = '7268648289:AAHCKTuu0BFPeb6QWMPauSZmz50LjTactOA'
+TOKEN = 'YOUR_TOKEN' #Replace this with your token API.
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text('Hi! I am your FAQ Bot. Ask me anything.')
